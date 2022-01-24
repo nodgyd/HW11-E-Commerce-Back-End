@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const { DataTypes } = require('sequelize/dist');
 const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
